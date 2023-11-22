@@ -1,0 +1,62 @@
+.wall {
+    /* Background pattern from Toptal Subtle Patterns */
+    height: 1275px;
+    width: 1585px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;
+    grid-template-rows: 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px 67.1px;
+    grid-template-columns: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.hold{
+    text-align: center;
+}
+
+.rightCircle {
+    width: 45px;
+    /* Set the width and height to define the size of the circle */
+    height: 45px;
+    background-color: rgba(16, 69, 182, 0.904);
+    /* Set the background color and adjust the alpha (opacity) as needed */
+    border-radius: 50%;
+    /* Use border-radius to create a circle by setting it to 50% */
+    position: relative;
+    /* Position the circle relative to its containing element */
+}
+
+.leftCircle {
+    width: 45px;
+    /* Set the width and height to define the size of the circle */
+    height: 45px;
+    background-color: rgba(204, 11, 59, 0.897);
+    /* Set the background color and adjust the alpha (opacity) as needed */
+    border-radius: 50%;
+    /* Use border-radius to create a circle by setting it to 50% */
+    position: relative;
+    /* Position the circle relative to its containing element */
+}
+
+.startCircle {
+    width: 45px;
+    /* Set the width and height to define the size of the circle */
+    height: 45px;
+    background-color: rgba(10, 143, 54, 0.897);
+    /* Set the background color and adjust the alpha (opacity) as needed */
+    border-radius: 50%;
+    /* Use border-radius to create a circle by setting it to 50% */
+    position: relative;
+    /* Position the circle relative to its containing element */
+}
+
+.btn{
+    margin: 15px;
+    padding: 15px;
+}
+
+.move{
+    margin: 20px;
+}
